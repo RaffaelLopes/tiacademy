@@ -1,0 +1,97 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --cor_degrade: #5267df;
+    --cor_header: #308ad3;
+    --cor_shadow: #0d3f8a;
+    --fonte: Verdana;
+
+}
+
+.flex {
+    display: flex;
+
+}
+
+
+header {
+    height: 150px;
+    background: radial-gradient(var(--cor_header), var(--cor_degrade));
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: var(--fonte);
+
+}
+
+
+header > span.material-icons {
+    font-size: 75px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: var(--cor_header);
+    padding: 10px;
+    position: absolute;
+    top: 130px;
+
+}
+
+
+main > section {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+
+}
+
+
+main > section > form {
+    flex-direction: column;
+
+}
+
+
+main > section > form > label.text {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    flex-direction: column;
+
+}
+
+
+main > section > form > label > input.inserir {
+    border: 2px solid #000;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 15px;
+
+
+}
+
+
+
+main > section > form >  input.busca {
+    background-color: var(--cor_header);
+    color: rgb(233, 227, 227);
+    font-family: var(--fonte);
+    font-size: 15px;
+    padding: 15px;
+    box-shadow: 3px 2px 2px var(--cor_shadow);
+
+}
+
+
+main > section > form >  input.busca:hover {
+    cursor: pointer;
+    border: 2px solid rgb(18, 18, 78);
+    box-shadow: 3px 3px var(--cor_shadow);
+
+
+}
