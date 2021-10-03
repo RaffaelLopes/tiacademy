@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+
+
+:root {
+  --cor_change_button: red;
+  --cor_header_footer: #212121;
+  --cor_home: #F9A825;
+  --fonte: "helvetica";
+
+}
+
+
+header {
+ background-color: var(--cor_header_footer); 
+ height: 50px;
+
+}
+
+header > h1 {
+  color: #fff;
+  font-family: var(--fonte);
+  font-size: 40px;
+  position: absolute;
+  left: 100px;
+
+}
+
+header > nav > form {
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 7.5px;
+
+}
+
+header > nav > form > input#button_home {
+  background-color: var(--cor_home);
+  border-radius: 30%;
+  justify-content: center;
+  padding: 5px;
+  
+}
+
+header > nav > form > input#button_home:hover {
+  cursor: pointer;
+  border: 3.5px solid #fff;
+  
+}
+
+header > nav > form > input.buttons {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  color: #fff;
+  background-color: var(--cor_header_footer);
+  font-family: var(--fonte);
+  padding: 5px;
+}
+
+header > nav > form > input._button:hover {
+  background-color: var(--cor_change_button);
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+
+}
+
+
+main {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > section#text {
+  width: 50%;
+  font-family: var(--fonte);
+  font-size: 30px;
+  border-right: 2px dotted rgb(20, 20, 20);
+  position: absolute;
+  bottom: 50%;
+  margin-left: 50px;
+}
+
+main > section.input {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 18%;
+  right: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+
+main > section > section#text_email {
+  font-family: var(--fonte);
+  font-size: 25px;
+}
+
+main > section > form#envio_email {
+  flex-direction: row;
+}
+
+main > section > form > label.email {
+  font-family: var(--fonte);
+  width: 100%;
+}
+
+main > section > form > label > input {
+  border: 2.5px solid black;
+  width: 100%;
+  border-radius: 10%;
+  margin: 10px;
+  padding: 8px;
+}
+
+main > section > form > input.enviar {
+  background-color: rgb(3, 3, 3);
+  font-family: var(--fonte);
+  font-size: 15px;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+main > section > form > input.enviar:hover {
+  cursor: pointer;
+  border: 1.5px solid var(--cor_change_button);
+}
+
+footer {
+  height: 80px;
+  background-color: var(--cor_header_footer);
+  justify-content: center;
+  align-items: center;
+  margin-top: 84vh;
+}
+
+footer > section {
+  font-family: var(--fonte);
+  color: white;
+  font-size: 25px;
+}
