@@ -1,10 +1,8 @@
 # tiacademy
 
-Desafio I
-- Kitanda
-- Lista dinâmica executada ao abrir a página
-- Seleção dos itens da lista de compra
-- Apresentação do produto na cesta
-- Uso de eventos e criação de elementos
-- Somatório do total da lista
-- O produto na cesta não pode ser duplicado
+Desafio II
+- Me Acha
+- Buscar um endereço por meio de um CEP
+- Apresentar o resultado em todos os campos do formulário
+- A ação de busca será efetuada ao clicar no botão
+- Os campos, exceto o de CEP, estarão desativos para escrita
