@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="scriptcss/desafio2style.css">
+    <script src="script/script.js"></script>
+    <title>DESAFIO 2 TI ACADEMY</title>
+</head>
+<body>
+    <header class="flex">
+        <h1>ME ACHA!</h1>
+        <h5>ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h5>
+        <span class="material-icons">travel_explore</span>
+    </header>
+
+    <main>
+    <section class="flex">
+    <form class="flex">
+
+        <label for="CEP" class="text flex"><b>CEP</b><input type="post" class="inserir" name="" placeholder="Digite um CEP válido" id="NumeroCep"></label>
+        <label for="rua" class="text flex"><b>Rua:</b><input disabled type="post" class="inserir" id="logradouro"required></label>
+        <label for="bairro" class="text flex"><b>Bairro:</b><input disabled  type="post" class="inserir" name=""id="bairro" required></label>
+        <label for="cidade" class="text flex"><b>Cidade:</b><input disabled type="post" class="inserir" id="localidade" required></label>
+        <label for="estado" class="text flex"><b>Estado:</b><input disabled type="post" class="inserir" id="uf" required></label>
+
+        <input method="post" type="button" name="buscar" id="buscarCep" value="BUSCAR" class="busca"></form> 
+ 
+    </section>
+    </main>
+    
+</body>
+</html>
